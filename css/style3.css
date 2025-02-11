@@ -6,3 +6,50 @@
     box-sizing: border-box;
     background:var(--color-1);
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.image {
+    width: 100%;
+}
