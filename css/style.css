@@ -1,8 +1,62 @@
+
 @import url(variables.css);
 *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background:var(--color-1);
+body {
+font-family: Arial, sans-serif;
+color: #333;
+}
+
+.caja__grande {
+text-align: center;
+padding: 50px 20px;
+}
+
+.caja__grande h1 {
+font-size: 2.5rem;
+margin-bottom: 20px;
+}
+
+.caja__grande p {
+font-size: 1rem;
+color: #666;
+margin-bottom: 20px;
+text-align: center;
+text-align: center;
+margin: 0 auto;
+max-width: 800px;
+line-height: 1.6;
+}
+
+.caja__grande button {
+background-color: black;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 1rem;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.caja__grande button:hover {
+background-color: #444;
+}
+
+.div__img {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+padding: 20px;
+}
+
+.div__img img {
+
+width: 100%;
+border-radius: 10px;
+
+
 }
